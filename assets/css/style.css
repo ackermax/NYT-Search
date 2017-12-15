@@ -25,3 +25,25 @@ form {
 body {
     background-color: rgb(48, 150, 245);
 }
+
+.hide {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+}
+#top-stories {
+    background-color: purple;
+    color: white;
+    padding-left: 15px;
+}
+#top-holder {
+    background-color: purple;
+}
+
+#article-holder .row {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
